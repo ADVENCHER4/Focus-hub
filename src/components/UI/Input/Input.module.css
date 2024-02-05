@@ -1,0 +1,32 @@
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #757575;
+    height: 4px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #CCCCCC;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #CCCCCC;
+    cursor: pointer;
+}

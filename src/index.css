@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Roboto, serif;
+  overflow: hidden;
+}
+
+:root {
+  --primary-color: white;
+}
